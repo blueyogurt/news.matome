@@ -1,0 +1,4017 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="generator" content="Hugo 0.15" />
+    
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans|Marcellus+SC">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <link rel="stylesheet" href="http://news.matome.yogurt.blue/css/app.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://news.matome.yogurt.blue/index.xml">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    
+    <title>ちゃおが調べたJSの実態ｗｗｗｗｗｗｗ - サクサク速報</title>
+    
+    
+    <meta name="description" content="1:名無し 2016/06/07(火) 01:38:59 ID: ed1f http://i.imgur.com/3LFoQWa.jpg 3:名無し 2016/06/07(火) 01:39:56 ID: qgsu 読書(まんが) 5:名無し 2016/06/07(火) 01:39:59 ID:">
+    
+    
+    
+    <meta property="og:title" content="ちゃおが調べたJSの実態ｗｗｗｗｗｗｗ - サクサク速報">
+    <meta property="og:type" content="article">
+    
+    <meta property="og:url" content="http://news.matome.yogurt.blue/post/20160606/gahalog.2chblog.jp/archives/52374110.html/">
+    
+    <meta property="og:description" content="1:名無し 2016/06/07(火) 01:38:59 ID: ed1f http://i.imgur.com/3LFoQWa.jpg 3:名無し 2016/06/07(火) 01:39:56 ID: qgsu 読書(まんが) 5:名無し 2016/06/07(火) 01:39:59 ID:">
+    
+    
+    <meta property="og:image" content="http://livedoor.blogimg.jp/funs/imgs/c/0/c0989242-s.jpg">
+    
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@sakusaku_news">
+    <meta name="twitter:creator" content="@sakusaku_news">
+    <meta name="twitter:title" content="ちゃおが調べたJSの実態ｗｗｗｗｗｗｗl">
+    
+    <meta name="twitter:description" content="1:名無し 2016/06/07(火) 01:38:59 ID: ed1f http://i.imgur.com/3LFoQWa.jpg 3:名無し 2016/06/07(火) 01:39:56 ID: qgsu 読書(まんが) 5:名無し 2016/06/07(火) 01:39:59 ID:">
+    
+    
+    <meta name="twitter:image" content="http://livedoor.blogimg.jp/funs/imgs/c/0/c0989242-s.jpg">
+    
+    
+    <meta name="google-site-verification" content="DFZSmJE0PgQEajhXRjGaywaZKTAv2sJ8ow2ieOICakc" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__title">
+        <a href="http://news.matome.yogurt.blue">サクサク速報</a>
+        <small>スマホでみやすいシンプルまとめ</small>
+      </div>
+    </header>
+    <div class="container">
+
+<div class="single">
+  <div class="row">
+    <div class="col-sm-8 col-0">
+      <article class="single-article" itemscope="itemscope" itemtype="http://schema.org/Article">
+        <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="http://news.matome.yogurt.blue"/>
+        <meta itemprop="dateModified" content="2016-06-06T23:00:11&#43;00:00">
+        <meta itemprop="headline" content="ちゃおが調べたJSの実態ｗｗｗｗｗｗｗ">
+        <meta itemprop="description" content="1:名無し 2016/06/07(火) 01:38:59 ID: ed1f http://i.imgur.com/3LFoQWa.jpg 3:名無し 2016/06/07(火) 01:39:56 ID: qgsu 読書(まんが) 5:名無し 2016/06/07(火) 01:39:59 ID:">
+        <meta itemprop="url" content="http://news.matome.yogurt.blue/post/20160606/gahalog.2chblog.jp/archives/52374110.html/">
+        <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+          
+          <meta itemprop="url" content="http://livedoor.blogimg.jp/funs/imgs/c/0/c0989242-s.jpg" />
+          
+          <meta itemprop="width" content="800">
+          <meta itemprop="height" content="800">
+        </div>
+        <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+          <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="http://news.matome.yogurt.blueimages/logo.jpg">
+            <meta itemprop="width" content="100">
+            <meta itemprop="height" content="100">
+          </div>
+          <meta itemprop="name" content="サクサク速報">
+        </div>
+        
+        <header class="single-header">
+          
+          <div class="single-header-image" style="background-image: url(http://livedoor.blogimg.jp/funs/imgs/c/0/c0989242-s.jpg);"></div>
+          
+          <div class="single-header-detail">
+            <h1 class="single-header-title">
+              <a href="http://news.matome.yogurt.blue/post/20160606/gahalog.2chblog.jp/archives/52374110.html/">ちゃおが調べたJSの実態ｗｗｗｗｗｗｗ</a>
+            </h1>
+            <div class="single-header-info">
+              <time class="single-header-info__time">
+                
+                2016.6.6
+                
+              </time>
+              
+              <span class="single-header-info__count">
+                <i class="material-icons md-12">remove_red_eye</i>8456
+              </span>
+            </div>
+          </div>
+        </header>
+        
+        <div class="article-body" itemprop="articleBody">
+
+<div class="single-body">
+  <div class="single-body-content">
+    
+    <head>
+</head>
+<body>
+ <div>
+  <div class="res__2ch-header">1:名無し 2016/06/07(火) 01:38:59  ID: ed1f</div>
+  <br />
+ </div>
+ <div>
+  <a href="http://livedoor.blogimg.jp/funs/imgs/c/0/c0989242.jpg" title="1_1" target="_blank">
+   <img src="http://livedoor.blogimg.jp/funs/imgs/c/0/c0989242-s.jpg" width="452" border="0" alt="1_1" hspace="5" sn-width="452" sn-height="500" />
+  </a>
+  <br />
+  <a href="http://i.imgur.com/3LFoQWa.jpg" target="_blank">
+  <a href=" http://i.imgur.com/3LFoQWa.jpg" target="_blank"> http://i.imgur.com/3LFoQWa.jpg</a>
+  </a>
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">3:名無し 2016/06/07(火) 01:39:56  ID: qgsu</div>
+  <br />
+ </div>
+ <div>
+  読書(まんが)
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">5:名無し 2016/06/07(火) 01:39:59  ID: mx9X</div>
+  <br />
+ </div>
+ <div>
+  思ったより普通やん
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">9:名無し 2016/06/07(火) 01:40:11  ID: CKus</div>
+  <br />
+ </div>
+ <div>
+  ワイちゃおっ男やけど違うで
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">10:名無し 2016/06/07(火) 01:40:19  ID: Crc2</div>
+  <br />
+ </div>
+ <div>
+  スマホ所持率低すぎだろ
+  <br />
+  <br />
+ </div>
+ <div>
+  <div>
+   <div class="res__2ch-header">524:名無し 2016/06/07(火) 02:41:39   ID:  Qq</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;10
+   <br />
+   小学低学年～中学年が読者だからね・・・
+   <br />
+   なお、キッズケータイは含まれない模様
+   <br />
+  </div>
+ </div>
+ <br />
+ <br />
+ <div>
+  <div class="res__2ch-header">14:名無し 2016/06/07(火) 01:40:42  ID: Q5y3</div>
+  <br />
+ </div>
+ <div>
+  桧山が彼氏で草
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">30:名無し 2016/06/07(火) 01:43:34  ID: jifl</div>
+  <br />
+ </div>
+ <div>
+  桧山ってあの阪神の？
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">34:名無し 2016/06/07(火) 01:43:45  ID: 6+2Z</div>
+  <br />
+ </div>
+ <div>
+  嵐やE-girlsが人気とか嘘やろ
+  <br />
+  <br />
+ </div>
+ <div>
+  <div>
+   <div class="res__2ch-header">84:名無し 2016/06/07(火) 01:48:37   ID:  ek</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;34
+   <br />
+   親の影響やろ
+   <br />
+  </div>
+ </div>
+ <br />
+ <br />
+ <div>
+  <div class="res__2ch-header">36:名無し 2016/06/07(火) 01:43:53  ID: s0yD</div>
+  <br />
+ </div>
+ <div>
+  きれいなセカンドゴロ打てるからな
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">37:名無し 2016/06/07(火) 01:43:54  ID: rsuU</div>
+  <br />
+ </div>
+ <div>
+  今時の女子小学生って大体桧山の応援歌歌ってるからな
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">39:名無し 2016/06/07(火) 01:44:24  ID: 6mmt</div>
+  <br />
+ </div>
+ <div>
+  流石に小学生のスマホ所持率は低いな
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">54:名無し 2016/06/07(火) 01:45:53  ID: u16q</div>
+  <br />
+ </div>
+ <div>
+  理想の彼氏
+  <br />
+  <br />
+  <img hspace="5" alt="54_2" border="0" width="300" src="http://livedoor.blogimg.jp/funs/imgs/9/7/97b65ec4.jpg" />
+  <br />
+  <img hspace="5" alt="54_1" border="0" width="400" src="http://livedoor.blogimg.jp/funs/imgs/9/c/9cffa9c0.jpg" />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div>
+   <div class="res__2ch-header">67:名無し 2016/06/07(火) 01:46:56   ID:  0A</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;54
+   <br />
+   理想なのはそいつが12歳の時やぞ
+   <br />
+  </div>
+ </div>
+ <br />
+ <br />
+ <div>
+  <div class="res__2ch-header">57:名無し 2016/06/07(火) 01:46:04  ID: O1zj</div>
+  <br />
+ </div>
+ <div>
+  桧山はさすがに草
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">63:名無し 2016/06/07(火) 01:46:43  ID: 0Neu</div>
+  <br />
+ </div>
+ <div>
+  すでに今年の流行語が決まってて草
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">64:名無し 2016/06/07(火) 01:46:45  ID: tUrj</div>
+  <br />
+ </div>
+ <div>
+  宝物が家族って素敵やん
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">66:名無し 2016/06/07(火) 01:46:53  ID: A5TA</div>
+  <br />
+ </div>
+ <div>
+  12歳知らないなんJ民多すぎやろ…
+  <br />
+  アニメもやってるのに
+  <br />
+  <br />
+ </div>
+ <div>
+  <div>
+   <div class="res__2ch-header">196:名無し 2016/06/07(火) 02:00:16   ID:  Bh</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;66
+   <br />
+   知ってる方がキモいのでセーフ
+   <br />
+  </div>
+ </div>
+ <br />
+ <br />
+ <div>
+  <div class="res__2ch-header">100:名無し 2016/06/07(火) 01:50:03  ID: zI+P</div>
+  <br />
+ </div>
+ <div>
+  小学生のころってこういうごちゃごちゃした構成の記事も平気で受け入れてたなって思い出した
+  <br />
+  <br />
+ </div>
+ <div>
+  <div>
+   <div class="res__2ch-header">110:名無し 2016/06/07(火) 01:51:18   ID:  ek</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;100
+   <br />
+   年取って見てもガキ向けなら楽しく見れるわ
+   <br />
+   懐かしい気分になるンゴねえ
+   <br />
+  </div>
+ </div>
+ <br />
+ <br />
+ <div>
+  <div class="res__2ch-header">125:名無し 2016/06/07(火) 01:53:07  ID: 7TgT</div>
+  <br />
+ </div>
+ <div>
+  でもワイはなかよし
+  <br />
+  <br />
+  <a href="http://livedoor.blogimg.jp/funs/imgs/9/9/99633863.png" title="125_1" target="_blank">
+   <img src="http://livedoor.blogimg.jp/funs/imgs/9/9/99633863-s.png" width="313" border="0" alt="125_1" hspace="5" />
+  </a>
+  <br />
+  <br />
+ </div>
+ <div>
+  <div>
+   <div class="res__2ch-header">149:名無し 2016/06/07(火) 01:55:06   ID:  2J</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;125
+   <br />
+   さくらの読みきりあくしろよ
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">170:名無し 2016/06/07(火) 01:58:08   ID:  2P</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;149
+   <br />
+   読み切りって読み切りりどころかもう新連載始まったんやが
+   <br />
+   新アニメプロジェクトも始動してるんやが
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">214:名無し 2016/06/07(火) 02:01:37   ID:  2J</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;170
+   <br />
+   ホンマやんけ買ってくるわ
+   <br />
+  </div>
+ </div>
+ <br />
+ <br />
+ <div>
+  <div class="res__2ch-header">130:名無し 2016/06/07(火) 01:53:35  ID: tId/</div>
+  <br />
+ </div>
+ <div>
+  阪神ファンの暴動を阻止した功績は大きい
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">158:名無し 2016/06/07(火) 01:56:54  ID: 8B3/</div>
+  <br />
+ </div>
+ <div>
+  桧山が彼氏とかJSにしてはなかなかコアな阪神ファンやな
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">162:名無し 2016/06/07(火) 01:57:37  ID: kHUn</div>
+  <br />
+ </div>
+ <div>
+  応援歌かっこいいしな
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">181:名無し 2016/06/07(火) 01:58:58  ID: yKCS</div>
+  <br />
+ </div>
+ <div>
+  桧山くんはこれだぞ焼き豚共
+  <br />
+  <img src="http://livedoor.blogimg.jp/funs/imgs/5/9/59a0292c.png" width="478" border="0" alt="181_1" hspace="5" />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div>
+   <div class="res__2ch-header">197:名無し 2016/06/07(火) 02:00:27   ID:  u1</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;181
+   <br />
+   なんや引退してから銭湯経営しとるんか
+   <br />
+   銭闘やってただけあるわ
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">215:名無し 2016/06/07(火) 02:01:38   ID:  8B</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;181
+   <br />
+   メスガキの方の目でかすぎやろ
+   <br />
+   顔の1/3が目やん
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">385:名無し 2016/06/07(火) 02:23:20   ID:  dH</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;215
+   <br />
+   せやろか？
+   <br />
+   某いじめは流石にネタの領域やがきらりん☆レボリューションの月島きらりとかもっと目デカいで
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">478:名無し 2016/06/07(火) 02:35:22   ID:  FE</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;215
+   <br />
+   ちゃおの世界に頭蓋骨なんて
+   <br />
+   <br />
+   <a href="http://livedoor.blogimg.jp/funs/imgs/4/6/46c8c0ec.jpg" title="478_1" target="_blank">
+    <img src="http://livedoor.blogimg.jp/funs/imgs/4/6/46c8c0ec-s.jpg" width="300" border="0" alt="478_1" hspace="5" />
+   </a>
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">488:名無し 2016/06/07(火) 02:37:08   ID:  xW</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;478
+   <br />
+   どれも変わらねえやん！
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">217:名無し 2016/06/07(火) 02:01:45   ID:  pN</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;181
+   <br />
+   実家が檜風呂なのは片岡だろ！いい加減にしろ！
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">406:名無し 2016/06/07(火) 02:26:31   ID:  dH</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;379
+   <br />
+   12歳。は冗談抜きでちゃおの中でもかなり面白い部類やで
+   <br />
+   告白して付き合うまでを描く作品が多い中告白後の日常を描いたのは本当に斬新や
+   <br />
+   まいた菜穂先生の作品はどれも面白いからおすすめやで
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">477:名無し 2016/06/07(火) 02:35:22   ID:  m1</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;406
+   <br />
+   これはめっちゃ早口で言ってそう
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">429:名無し 2016/06/07(火) 02:29:13   ID:  1Z</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;181
+   <br />
+   これなにさらっと母殺しとるんや
+   <br />
+   こういうのがウケるんか
+   <br />
+  </div>
+ </div>
+ <br />
+ <br />
+ <div>
+  <div class="res__2ch-header">189:名無し 2016/06/07(火) 01:59:43  ID: 4t0J</div>
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">6:名無し 2013/01/31(木) 10:01:33  ID:3zRjo</div>
+  <br />
+  阪神でファンサービスを受ける時は桧山に注意しないとヤバイ
+  <br />
+  岩田選手、握手して下さいと近付いたら横から桧山が現れて
+  <br />
+  握手をしてもらった上にサインをもらっていたみたいな事件は日常茶飯事
+  <br />
+  <br />
+ </div>
+ <div>
+  <div>
+   <div class="res__2ch-header">202:名無し 2016/06/07(火) 02:00:51   ID:  FM</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;189
+   <br />
+   そら好きになるわ
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">210:名無し 2016/06/07(火) 02:01:17   ID:  2E</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;189
+   <br />
+   エエ奴やんけ
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">239:名無し 2016/06/07(火) 02:04:57   ID:  DO</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;189
+   <br />
+   これはJSにももてますわ
+   <br />
+  </div>
+ </div>
+ <br />
+ <br />
+ <div>
+  <div class="res__2ch-header">224:名無し 2016/06/07(火) 02:02:27  ID: /9C4</div>
+  <br />
+ </div>
+ <div>
+  桧山スレになってて草
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">249:名無し 2016/06/07(火) 02:06:10  ID: anii</div>
+  <br />
+ </div>
+ <div>
+  これ系面白いからJC JK JD 社会人もやってほしい
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">302:名無し 2016/06/07(火) 02:12:28  ID: KNO+</div>
+  <br />
+ </div>
+ <div>
+  嵐すごすぎやろ
+  <br />
+  何年選手や
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">305:名無し 2016/06/07(火) 02:13:07  ID: Pudt</div>
+  <br />
+ </div>
+ <div>
+  犬派大勝利で草
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">335:名無し 2016/06/07(火) 02:16:09  ID: 6Zsg</div>
+  <br />
+ </div>
+ <div>
+  長打力あって守備も上手い
+  <br />
+  今の阪神が喉から手が出るほど欲しい選手なんだよなぁ
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">507:名無し 2016/06/07(火) 02:39:53  ID: 1OPJ</div>
+  <br />
+ </div>
+ <div>
+  ちゃおが一番人気なの？
+  <br />
+  りぼんは大正義まるカスがいるのに不人気なんか
+  <br />
+  <br />
+ </div>
+ <div>
+  <div>
+   <div class="res__2ch-header">519:名無し 2016/06/07(火) 02:41:19   ID:  uh</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;507
+   <br />
+   今はちゃおがトリプル以上差をつけてひとり勝ちやぞ
+   <br />
+  </div>
+ </div>
+ <br />
+ <br />
+ <div>
+  <div class="res__2ch-header">549:名無し 2016/06/07(火) 02:44:07  ID: Y6Sp</div>
+  <br />
+ </div>
+ <div>
+  目でかすぎやろ
+  <br />
+  <br />
+  <a href="http://livedoor.blogimg.jp/funs/imgs/0/d/0d3eb948.jpg" title="549_1" target="_blank">
+   <img src="http://livedoor.blogimg.jp/funs/imgs/0/d/0d3eb948-s.jpg" width="655" border="0" alt="549_1" hspace="5" />
+  </a>
+  <br />
+  <br />
+ </div>
+ <div>
+  <div>
+   <div class="res__2ch-header">555:名無し 2016/06/07(火) 02:45:19   ID:  gI</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;549
+   <br />
+   目が大きい=可愛いという方程式があるからな
+   <br />
+   実際目が細い女は可愛くないやろ？
+   <br />
+   程度によりけりだがな
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">557:名無し 2016/06/07(火) 02:45:21   ID:  u1</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;549
+   <br />
+   上段真ん中やばいやろ…
+   <br />
+  </div>
+ </div>
+ <br />
+ <br />
+ <div>
+  <div class="res__2ch-header">597:名無し 2016/06/07(火) 02:50:31  ID: wbGG</div>
+  <br />
+ </div>
+ <div>
+  クッソ無難やな
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">606:名無し 2016/06/07(火) 02:51:25  ID: Y6Sp</div>
+  <br />
+ </div>
+ <div>
+  青春やな
+  <br />
+  <br />
+  <a href="http://livedoor.blogimg.jp/funs/imgs/7/f/7f31f906.jpg" title="606_1" target="_blank">
+   <img src="http://livedoor.blogimg.jp/funs/imgs/7/f/7f31f906-s.jpg" width="652" border="0" alt="606_1" hspace="5" />
+  </a>
+  <br />
+  <br />
+ </div>
+ <div>
+  <div>
+   <div class="res__2ch-header">619:名無し 2016/06/07(火) 02:53:50   ID:  yz</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;606
+   <br />
+   川相のことしか考えられなくなってんじゃん！
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">628:名無し 2016/06/07(火) 02:55:27   ID:  m1</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;619
+   <br />
+   犠打王だからね、しょうがないね
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">626:名無し 2016/06/07(火) 02:55:22   ID:  Z3</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;606
+   <br />
+   古臭い展開やなあ
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">721:名無し 2016/06/07(火) 03:14:49   ID:  TG</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;606
+   <br />
+   女ってこんなこと言ってもらいたがってるのかよ
+   <br />
+   くっさ
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">728:名無し 2016/06/07(火) 03:16:13   ID:  Ic</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;721
+   <br />
+   ツンデレとか幼なじみとかクッソかわいいけど実際おったらなかなか気持ち悪い
+   <br />
+   それと同じや
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">731:名無し 2016/06/07(火) 03:16:37   ID:  u1</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;728
+   <br />
+   なんか昔張られてた画像で
+   <br />
+   少女雑誌の「ツンデレ」になろう、みたいなのがくっそイラついたな
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">742:名無し 2016/06/07(火) 03:18:03   ID:  Ic</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;731
+   <br />
+   多分セブンティーンかなんかやと思うけどああいうのは作為的にやられると気持ち悪いわな
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">739:名無し 2016/06/07(火) 03:17:40   ID:  u1</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;728
+   <br />
+   あった、殺したい
+   <br />
+   <a href="http://livedoor.blogimg.jp/funs/imgs/5/2/52876b92.jpg" title="739_1" target="_blank">
+    <img src="http://livedoor.blogimg.jp/funs/imgs/5/2/52876b92-s.jpg" width="354" border="0" alt="739_1" hspace="5" />
+   </a>
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">748:名無し 2016/06/07(火) 03:19:24   ID:  Ic</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;739
+   <br />
+   これ何が気持ち悪いってモテるために武道とか育ち良いアピールするところよ
+   <br />
+   かわいい子がやってもきつい
+   <br />
+  </div>
+ </div>
+ <br />
+ <br />
+ <div>
+  <div class="res__2ch-header">702:名無し 2016/06/07(火) 03:11:18  ID: Ice3</div>
+  <br />
+ </div>
+ <div>
+  むしろ男でも見れるような萌え系の絵が増えたように思うわ
+  <br />
+  昔はクランプくらいだったと思う
+  <br />
+  <br />
+ </div>
+ <div>
+  <div>
+   <div class="res__2ch-header">704:名無し 2016/06/07(火) 03:11:48   ID:  u1</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;702
+   <br />
+   男どころかオッサンでも読める少女漫画やったら30年前からあるで
+   <br />
+   岡田あーみんとか
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">708:名無し 2016/06/07(火) 03:12:26   ID:  Ic</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;704
+   <br />
+   内容は同意やがあーみんはどうみても萌え系ではないやん
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">714:名無し 2016/06/07(火) 03:13:34   ID:  u1</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;708
+   <br />
+   本人が萌えキャラやからええやろ
+   <br />
+  </div>
+ </div>
+ <br />
+ <div>
+  <div>
+   <div class="res__2ch-header">706:名無し 2016/06/07(火) 03:12:08   ID:  yl</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;702
+   <br />
+   萌え絵が少女漫画絵に寄ってきたんやぞ
+   <br />
+  </div>
+ </div>
+ <br />
+ <br />
+ <div>
+  <div class="res__2ch-header">724:名無し 2016/06/07(火) 03:15:18  ID: 0076</div>
+  <br />
+ </div>
+ <div>
+  ちゃおっ娘のATM熱はもう冷めたんやな
+  <br />
+  <br />
+  <img src="http://livedoor.blogimg.jp/funs/imgs/a/0/a0a6432d.jpg" width="480" border="0" alt="724_1" hspace="5" />
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">740:名無し 2016/06/07(火) 03:17:56  ID: B5iR</div>
+  <br />
+ </div>
+ <div>
+  なかよしとりぼんは大人でも読めないこともないけどちゃおはきついわ
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  <div class="res__2ch-header">786:名無し 2016/06/07(火) 03:32:44  ID: CJvy</div>
+  <br />
+ </div>
+ <div>
+  <a href="http://livedoor.blogimg.jp/funs/imgs/8/7/870f21e6.jpg" title="786_1" target="_blank">
+   <img src="http://livedoor.blogimg.jp/funs/imgs/8/7/870f21e6-s.jpg" width="332" border="0" alt="786_1" hspace="5" />
+  </a>
+  <br />
+  <a href="http://livedoor.blogimg.jp/funs/imgs/b/0/b049f87e.jpg" title="786_2" target="_blank">
+   <img src="http://livedoor.blogimg.jp/funs/imgs/b/0/b049f87e-s.jpg" width="298" border="0" alt="786_2" hspace="5" />
+  </a>
+  <br />
+  <a href="http://livedoor.blogimg.jp/funs/imgs/b/1/b1d51274.jpg" title="786_3" target="_blank">
+   <img src="http://livedoor.blogimg.jp/funs/imgs/b/1/b1d51274-s.jpg" width="281" border="0" alt="786_3" hspace="5" />
+  </a>
+  <br />
+  <a href="http://livedoor.blogimg.jp/funs/imgs/0/f/0f14a10f.jpg" title="786_4" target="_blank">
+   <img src="http://livedoor.blogimg.jp/funs/imgs/0/f/0f14a10f-s.jpg" width="281" border="0" alt="786_4" hspace="5" />
+  </a>
+  <br />
+  <a href="http://livedoor.blogimg.jp/funs/imgs/a/b/ab3779d4.jpg" title="786_5" target="_blank">
+   <img src="http://livedoor.blogimg.jp/funs/imgs/a/b/ab3779d4-s.jpg" width="281" border="0" alt="786_5" hspace="5" />
+  </a>
+  <br />
+  <br />
+ </div>
+ <div>
+  <div>
+   <div class="res__2ch-header">789:名無し 2016/06/07(火) 03:34:19   ID:  CR</div>
+   <br />
+  </div>
+  <div>
+   &gt;&gt;786
+   <br />
+   最後のって少女漫画だったのか
+   <br />
+   坂本ですがかと思ってた
+   <br />
+  </div>
+ </div>
+ <br />
+ <br />
+ <div>
+  <div class="res__2ch-header">821:名無し 2016/06/07(火) 03:46:02  ID: 1tbQ</div>
+  <br />
+ </div>
+ <div>
+  これは参考になるデータ
+  <br />
+  もっと調べてほしい
+  <br />
+  <br />
+  <br />
+ </div>
+ <div>
+  元スレ：http://tomcat.2ch.sc/test/read.cgi/livejupiter/1465231139/
+ </div>
+</body>
+    
+  </div>
+  
+  <div class="single-body-info">
+    <a href="http://gahalog.2chblog.jp/archives/52374110.html" target="_blank" class="single-body-info__link">
+      出典：gahalog.2chblog.jp
+    </a>
+  </div>
+  
+</div>
+
+        </div>
+        <aside class="single-aside">
+          
+
+          <div class="single-share">
+            <ul>
+              <li class="single-share--facebook">
+                <a href="http://www.facebook.com/sharer.php?src=bm&u=http%3a%2f%2fnews.matome.yogurt.blue%2fpost%2f20160606%2fgahalog.2chblog.jp%2farchives%2f52374110.html%2f&t=%e3%81%a1%e3%82%83%e3%81%8a%e3%81%8c%e8%aa%bf%e3%81%b9%e3%81%9fJS%e3%81%ae%e5%ae%9f%e6%85%8b%ef%bd%97%ef%bd%97%ef%bd%97%ef%bd%97%ef%bd%97%ef%bd%97%ef%bd%97 - %e3%82%b5%e3%82%af%e3%82%b5%e3%82%af%e9%80%9f%e5%a0%b1" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;">
+                  <span class="icon-facebook"></span>シェア
+                </a>
+              </li>
+              <li class="single-share--twitter">
+                <a href="http://twitter.com/intent/tweet?url=http%3a%2f%2fnews.matome.yogurt.blue%2fpost%2f20160606%2fgahalog.2chblog.jp%2farchives%2f52374110.html%2f&text=%e3%81%a1%e3%82%83%e3%81%8a%e3%81%8c%e8%aa%bf%e3%81%b9%e3%81%9fJS%e3%81%ae%e5%ae%9f%e6%85%8b%ef%bd%97%ef%bd%97%ef%bd%97%ef%bd%97%ef%bd%97%ef%bd%97%ef%bd%97&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;">
+                  <span class="icon-twitter"></span>ツイート
+                </a>
+              </li>
+              <li class="single-share--line">
+                <a onclick="location.href='line://msg/text/ちゃおが調べたJSの実態ｗｗｗｗｗｗｗ - サクサク速報%20http:\/\/news.matome.yogurt.blue\/post\/20160606\/gahalog.2chblog.jp\/archives\/52374110.html\/';return false;">
+                  <span class="icon-line"></span>送る
+                </a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </article>
+    </div>
+    <div class="col-sm-4">
+      <aside class="sidebar">
+  
+  <div class="section">
+    <header><div class="title">おすすめ</div></header>
+    <div class="content">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+        <div class="sm"><article class="li">
+  <a href="http://news.matome.yogurt.blue/post/20160606/gahalog.2chblog.jp/archives/52374084.html/">
+    
+    <div class="li-image" style="background-image: url(http://livedoor.blogimg.jp/funs/imgs/2/6/266f85ac.jpg);"></div>
+    
+    <div class="li-detail">
+      <h2 class="li-title">スズメバチの巣をスズメがリフォームして住み着き、近所で話題に　岐阜</h2>
+      <p class="li-info">
+        <time class="li-info__time">
+          
+          2016.6.6
+          
+        </time>
+        
+        <span class="li-info__count">
+          <i class="material-icons md-12">remove_red_eye</i>11861
+        </span>
+      </p>
+    </div>
+  </a>
+</article>
+</div>
+        
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+        <div class="sm"><article class="li">
+  <a href="http://news.matome.yogurt.blue/post/20160605/gahalog.2chblog.jp/archives/52373938.html/">
+    
+    <div class="li-image" style="background-image: url(http://livedoor.blogimg.jp/funs/imgs/6/9/69e947b9.png);"></div>
+    
+    <div class="li-detail">
+      <h2 class="li-title">【悲報】「あなたのパソコンはウイルスに感染しています」警告通りに行動するとPCが乗っ取られると判明</h2>
+      <p class="li-info">
+        <time class="li-info__time">
+          
+          2016.6.5
+          
+        </time>
+        
+        <span class="li-info__count">
+          <i class="material-icons md-12">remove_red_eye</i>13998
+        </span>
+      </p>
+    </div>
+  </a>
+</article>
+</div>
+        
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+        <div class="sm"><article class="li">
+  <a href="http://news.matome.yogurt.blue/post/20160604/gahalog.2chblog.jp/archives/52373898.html/">
+    
+    <div class="li-image" style="background-image: url(http://livedoor.blogimg.jp/funs/imgs/b/3/b34a50d7.jpg);"></div>
+    
+    <div class="li-detail">
+      <h2 class="li-title">フジ「満を持して芦田愛菜とマッサン嫁をドラマに使った結果ｗｗｗｗｗ」</h2>
+      <p class="li-info">
+        <time class="li-info__time">
+          
+          2016.6.4
+          
+        </time>
+        
+        <span class="li-info__count">
+          <i class="material-icons md-12">remove_red_eye</i>12363
+        </span>
+      </p>
+    </div>
+  </a>
+</article>
+</div>
+        
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+        <div class="sm"><article class="li">
+  <a href="http://news.matome.yogurt.blue/post/20160604/gahalog.2chblog.jp/archives/52373848.html/">
+    
+    <div class="li-image" style="background-image: url(http://livedoor.blogimg.jp/funs/imgs/2/4/24dc8940.gif);"></div>
+    
+    <div class="li-detail">
+      <h2 class="li-title">【悲報】アンパンマン号、もうめちゃくちゃ</h2>
+      <p class="li-info">
+        <time class="li-info__time">
+          
+          2016.6.4
+          
+        </time>
+        
+        <span class="li-info__count">
+          <i class="material-icons md-12">remove_red_eye</i>16140
+        </span>
+      </p>
+    </div>
+  </a>
+</article>
+</div>
+        
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+        <div class="sm"><article class="li">
+  <a href="http://news.matome.yogurt.blue/post/20160604/gahalog.2chblog.jp/archives/52373841.html/">
+    
+    <div class="li-image" style="background-image: url(http://livedoor.blogimg.jp/funs/imgs/0/0/00ab23b3.jpg);"></div>
+    
+    <div class="li-detail">
+      <h2 class="li-title">【悲報】超キラキラネームの女子アナが全国放映される</h2>
+      <p class="li-info">
+        <time class="li-info__time">
+          
+          2016.6.4
+          
+        </time>
+        
+        <span class="li-info__count">
+          <i class="material-icons md-12">remove_red_eye</i>11456
+        </span>
+      </p>
+    </div>
+  </a>
+</article>
+</div>
+        
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+        <div class="sm"><article class="li">
+  <a href="http://news.matome.yogurt.blue/post/20160603/gahalog.2chblog.jp/archives/52373754.html/">
+    
+    <div class="li-image" style="background-image: url(http://livedoor.blogimg.jp/funs/imgs/a/0/a08c3efd-s.jpg);"></div>
+    
+    <div class="li-detail">
+      <h2 class="li-title">【悲報】麻雀漫画、とんでもない確率論を繰り広げる</h2>
+      <p class="li-info">
+        <time class="li-info__time">
+          
+          2016.6.3
+          
+        </time>
+        
+        <span class="li-info__count">
+          <i class="material-icons md-12">remove_red_eye</i>7846
+        </span>
+      </p>
+    </div>
+  </a>
+</article>
+</div>
+        
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  
+
+  
+    
+      <div class="section taxonomies">
+        <header><div class="title">他の記事をみる</div></header>
+        <div class="content">
+          
+            <a href="http://news.matome.yogurt.blue/categories/%E8%8A%B8%E8%83%BD">芸能</a>
+          
+            <a href="http://news.matome.yogurt.blue/categories/%E7%94%9F%E6%B4%BB">生活</a>
+          
+            <a href="http://news.matome.yogurt.blue/categories/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9">ニュース</a>
+          
+            <a href="http://news.matome.yogurt.blue/categories/%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84">スポーツ</a>
+          
+            <a href="http://news.matome.yogurt.blue/categories/%E9%87%8E%E7%90%83">野球</a>
+          
+            <a href="http://news.matome.yogurt.blue/categories/%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3">ファッション</a>
+          
+            <a href="http://news.matome.yogurt.blue/categories/%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC">サッカー</a>
+          
+            <a href="http://news.matome.yogurt.blue/categories/%E9%AC%BC%E5%A5%B3">鬼女</a>
+          
+        </div>
+      </div>
+    
+  
+    
+  
+</aside>
+
+    </div>
+  </div>
+</div>
+    </div>
+
+    <footer class="footer">
+      
+      <p><a href="http://news.matome.yogurt.blue">news.matome</a></p>
+    </footer>
+    
+      <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  var hosts = [
+    'news.100kin.yogurt.blue',
+    'news.1trip.yogurt.blue',
+    'news.ai.yogurt.blue',
+    'news.akb48.yogurt.blue',
+    'news.app.yogurt.blue',
+    'news.apple.yogurt.blue',
+    'news.asakusa.yogurt.blue',
+    'news.baseball.yogurt.blue',
+    'news.blackthunder.yogurt.blue',
+    'news.book.yogurt.blue',
+    'news.brazil.yogurt.blue',
+    'news.career.yogurt.blue',
+    'news.choice.yogurt.blue',
+    'news.coriander.yogurt.blue',
+    'news.cosplay.yogurt.blue',
+    'news.curry.yogurt.blue',
+    'news.darenogare.yogurt.blue',
+    'news.disney.yogurt.blue',
+    'news.fashion.yogurt.blue',
+    'news.gg.yogurt.blue',
+    'news.government.yogurt.blue',
+    'news.grandtheftauto.yogurt.blue',
+    'news.hairstyle.yogurt.blue',
+    'news.healthcare.yogurt.blue',
+    'news.hoiku.yogurt.blue',
+    'news.hukugyo.yogurt.blue',
+    'news.humor.yogurt.blue',
+    'news.hunterhunterzip.yogurt.blue',
+    'news.ibaraki.yogurt.blue',
+    'news.ichiro.yogurt.blue',
+    'news.ieyasu.yogurt.blue',
+    'news.ijyu.yogurt.blue',
+    'news.interior.yogurt.blue',
+    'news.jojozip.yogurt.blue',
+    'news.jumpzip.yogurt.blue',
+    'news.kakuto.yogurt.blue',
+    'news.kannachan.yogurt.blue',
+    'news.kashikoi.yogurt.blue',
+    'news.kekkon.yogurt.blue',
+    'news.kindle.yogurt.blue',
+    'news.kindomzip.yogurt.blue',
+    'news.kishiasuka.yogurt.blue',
+    'news.korea.yogurt.blue',
+    'news.kosodate.yogurt.blue',
+    'news.kyoto.yogurt.blue',
+    'news.masuzoe.yogurt.blue',
+    'news.matome.yogurt.blue',
+    'news.mayuge.yogurt.blue',
+    'news.mobilesim.yogurt.blue',
+    'news.mogamimoga.yogurt.blue',
+    'news.monst.yogurt.blue',
+    'news.muscle.yogurt.blue',
+    'news.neko.yogurt.blue',
+    'news.nobunaga.yogurt.blue',
+    'news.nogisaka46.yogurt.blue',
+    'news.okinawa.yogurt.blue',
+    'news.onepiecezip.yogurt.blue',
+    'news.onsen.yogurt.blue',
+    'news.oriragi.yogurt.blue',
+    'news.pazdra.yogurt.blue',
+    'news.pokemon.yogurt.blue',
+    'news.ramen.yogurt.blue',
+    'news.refugees.yogurt.blue',
+    'news.reinachann.yogurt.blue',
+    'news.sanadamaru.yogurt.blue',
+    'news.sasakinozomi.yogurt.blue',
+    'news.seiyu.yogurt.blue',
+    'news.smartwatch.yogurt.blue',
+    'news.soccer.yogurt.blue',
+    'news.space.yogurt.blue',
+    'news.starrysky.yogurt.blue',
+    'news.sweets.yogurt.blue',
+    'news.syukatsu.yogurt.blue',
+    'news.tokyoghoulzip.yogurt.blue',
+    'news.travel.yogurt.blue',
+    'news.trump.yogurt.blue',
+    'news.yakult.yogurt.blue'
+  ]
+  var i = hosts.indexOf('http:\/\/news.matome.yogurt.blue'.replace(/(^.*?:\/\/)|(\/$)/g, ""));
+  if(i != -1) {
+      hosts.splice(i, 1);
+  }
+
+  ga('create', 'UA-78413722-1', 'auto', {'allowLinker': true});
+  ga('send', 'pageview');
+  ga('require', 'linker');
+  ga('linker:autoLink', hosts );
+
+</script>
+
+    
+  </body>
+</html>
+
+
